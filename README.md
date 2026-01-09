@@ -28,13 +28,10 @@
 <h2 align="center">🛠️ Languages and Tools</h2>
 
 <div align="center">
-  
   <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
   <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
   <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="Git(hub)" width="65" height="65" />
-  
-  
+  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="Git(hub)" width="65" height="65" />  
 </div>
 
 <div align="center">
