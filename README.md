@@ -17,8 +17,8 @@
 
 - 🔭 I'm currently working on **exciting projects**
 - 🌱 I'm constantly **learning and growing**
-- 💬 Ask me about **Python, Flutter, Docker**
-- 📫 How to reach me: **your.email@example.com**
+- 💬 Ask me about **Python, Docker or MySQL**
+- 📫 How to reach me: **contact@akuras.dev**
 - ⚡ Fun fact: **I love building things!**
 
 <br clear="right"/>
@@ -32,11 +32,12 @@
   <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
   <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
   <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="65" height="65" />
+  
   
 </div>
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="50" height="50"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="50" height="50"/>
   <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="50" height="50"/>
   <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="50" height="50"/>
