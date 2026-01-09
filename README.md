@@ -63,7 +63,7 @@
   
   ### 🎯 Show some ❤️ by starring some repositories!
   
-  ![Snake animation](https://raw.githubusercontent.com/akuras22/snake/output/github-contribution-grid-snake-dark.svg)
+  ![Snake animation](https://raw.githubusercontent.com/akuras22/akuras22/output/snake.svg)
   
 </div>
 
