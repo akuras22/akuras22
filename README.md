@@ -1,368 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jon's Animated README</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=6366F1&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B%2C+I'm+Jon;A+Passionate+Developer+from+Germany;Welcome+to+my+GitHub+Profile!" alt="Typing SVG" />
+</div>
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 40px 20px;
-            overflow-x: hidden;
-        }
+<div align="center">
+  
+  ![Profile Views](https://komarev.com/ghpvc/?username=jon&label=Profile%20views&color=0e75b6&style=flat)
+  [![GitHub followers](https://img.shields.io/github/followers/jon?label=Followers&style=social)](https://github.com/jon)
+  
+</div>
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
-            padding: 60px 40px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            position: relative;
-            overflow: hidden;
-        }
+<br/>
 
-        .container::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
-            animation: rotate 20s linear infinite;
-        }
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-        @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
+### 👨‍💻 About Me
 
-        .content {
-            position: relative;
-            z-index: 1;
-        }
+- 🔭 I'm currently working on **exciting projects**
+- 🌱 I'm constantly **learning and growing**
+- 💬 Ask me about **Python, Flutter, Docker**
+- 📫 How to reach me: **your.email@example.com**
+- ⚡ Fun fact: **I love building things!**
 
-        h1 {
-            text-align: center;
-            font-size: 3.5em;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 10px;
-            animation: fadeInDown 1s ease;
-        }
+<br clear="right"/>
 
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+---
 
-        .wave {
-            animation: wave 2s ease-in-out infinite;
-            display: inline-block;
-            transform-origin: 70% 70%;
-        }
+<h2 align="center">🛠️ Languages and Tools</h2>
 
-        @keyframes wave {
-            0%, 100% { transform: rotate(0deg); }
-            10%, 30% { transform: rotate(14deg); }
-            20% { transform: rotate(-8deg); }
-            40% { transform: rotate(-4deg); }
-            50% { transform: rotate(10deg); }
-        }
+<div align="center">
+  
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="65" height="65" />
+  
+</div>
 
-        h3 {
-            text-align: center;
-            color: #555;
-            font-size: 1.5em;
-            margin-bottom: 40px;
-            animation: fadeIn 1.5s ease;
-        }
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="50" height="50"/>
+  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="50" height="50"/>
+</div>
 
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+---
 
-        .typing-container {
-            text-align: center;
-            margin-bottom: 50px;
-        }
+<h2 align="center">📊 GitHub Stats</h2>
 
-        .typing-text {
-            display: inline-block;
-            color: #764ba2;
-            font-size: 1.3em;
-            font-weight: 600;
-            border-right: 3px solid #764ba2;
-            padding-right: 5px;
-            animation: typing 4s steps(40) infinite, blink 0.75s step-end infinite;
-            overflow: hidden;
-            white-space: nowrap;
-        }
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jon&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jon&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180"/>
+</div>
 
-        @keyframes typing {
-            0%, 100% { width: 0; }
-            50% { width: 100%; }
-        }
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jon&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
+</div>
 
-        @keyframes blink {
-            50% { border-color: transparent; }
-        }
+---
 
-        .section-title {
-            font-size: 2em;
-            color: #333;
-            margin-bottom: 30px;
-            text-align: center;
-            position: relative;
-            animation: slideInLeft 1s ease;
-        }
+<h2 align="center">🏆 GitHub Trophies</h2>
 
-        @keyframes slideInLeft {
-            from {
-                opacity: 0;
-                transform: translateX(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=jon&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="Trophies"/>
+</div>
 
-        .section-title::after {
-            content: '';
-            display: block;
-            width: 100px;
-            height: 4px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            margin: 15px auto 0;
-            border-radius: 2px;
-        }
+---
 
-        .tech-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
+<h2 align="center">📈 Contribution Graph</h2>
 
-        .tech-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            animation: fadeInUp 1s ease backwards;
-        }
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jon&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph"/>
+</div>
 
-        .tech-item:nth-child(1) { animation-delay: 0.1s; }
-        .tech-item:nth-child(2) { animation-delay: 0.2s; }
-        .tech-item:nth-child(3) { animation-delay: 0.3s; }
-        .tech-item:nth-child(4) { animation-delay: 0.4s; }
-        .tech-item:nth-child(5) { animation-delay: 0.5s; }
-        .tech-item:nth-child(6) { animation-delay: 0.6s; }
-        .tech-item:nth-child(7) { animation-delay: 0.7s; }
-        .tech-item:nth-child(8) { animation-delay: 0.8s; }
-        .tech-item:nth-child(9) { animation-delay: 0.9s; }
-        .tech-item:nth-child(10) { animation-delay: 1s; }
-        .tech-item:nth-child(11) { animation-delay: 1.1s; }
-        .tech-item:nth-child(12) { animation-delay: 1.2s; }
-        .tech-item:nth-child(13) { animation-delay: 1.3s; }
-        .tech-item:nth-child(14) { animation-delay: 1.4s; }
-        .tech-item:nth-child(15) { animation-delay: 1.5s; }
+---
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+<div align="center">
+  
+  ### 💭 Random Dev Quote
+  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+  
+</div>
 
-        .tech-item:hover {
-            transform: translateY(-10px) scale(1.05);
-            box-shadow: 0 15px 30px rgba(102, 126, 234, 0.3);
-        }
+---
 
-        .tech-item img {
-            width: 50px;
-            height: 50px;
-            margin-bottom: 10px;
-            filter: grayscale(50%);
-            transition: filter 0.3s ease;
-        }
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer"/>
+</div>
 
-        .tech-item:hover img {
-            filter: grayscale(0%);
-            animation: bounce 0.6s ease;
-        }
-
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        .tech-item span {
-            font-size: 0.9em;
-            color: #666;
-            font-weight: 600;
-            text-align: center;
-        }
-
-        .stats-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 50px;
-        }
-
-        .stat-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-            color: white;
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
-            animation: pulse 2s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.02); }
-        }
-
-        .stat-card h4 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-
-        .stat-card p {
-            font-size: 1em;
-            opacity: 0.9;
-        }
-
-        @media (max-width: 768px) {
-            h1 { font-size: 2.5em; }
-            h3 { font-size: 1.2em; }
-            .container { padding: 40px 20px; }
-            .tech-grid { grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 15px; }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="content">
-            <h1>Hi <span class="wave">👋</span>, I'm Jon</h1>
-            <h3>A passionate developer from Germany</h3>
-            
-            <div class="typing-container">
-                <div class="typing-text">💻 Building amazing things with code...</div>
-            </div>
-
-            <div class="stats-container">
-                <div class="stat-card">
-                    <h4>15+</h4>
-                    <p>Technologies</p>
-                </div>
-                <div class="stat-card">
-                    <h4>∞</h4>
-                    <p>Lines of Code</p>
-                </div>
-                <div class="stat-card">
-                    <h4>🚀</h4>
-                    <p>Always Learning</p>
-                </div>
-            </div>
-
-            <h2 class="section-title">🛠️ Languages and Tools</h2>
-
-            <div class="tech-grid">
-                <div class="tech-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="Android">
-                    <span>Android</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino">
-                    <span>Arduino</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="Bash">
-                    <span>Bash</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3">
-                    <span>CSS3</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker">
-                    <span>Docker</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask">
-                    <span>Flask</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter">
-                    <span>Flutter</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
-                    <span>Git</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5">
-                    <span>HTML5</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux">
-                    <span>Linux</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB">
-                    <span>MongoDB</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL">
-                    <span>MySQL</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx">
-                    <span>Nginx</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python">
-                    <span>Python</span>
-                </div>
-                <div class="tech-item">
-                    <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite">
-                    <span>SQLite</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+<div align="center">
+  
+  ### 🎯 Show some ❤️ by starring some repositories!
+  
+  ![Snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
+  
+</div>
